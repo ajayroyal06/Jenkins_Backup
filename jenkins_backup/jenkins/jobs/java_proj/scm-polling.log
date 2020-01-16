@@ -1,0 +1,10 @@
+Started on Jan 14, 2020 6:28:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 54c718548371ba082886fd6a1ad146bedb3518dd (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ajayroyal06/repo1_jenkins.git # timeout=10
+Found 1 remote heads on https://github.com/ajayroyal06/repo1_jenkins.git
+[poll] Latest remote head revision on refs/heads/master is: 54c718548371ba082886fd6a1ad146bedb3518dd - already built by 7
+Done. Took 0.61 sec
+No changes

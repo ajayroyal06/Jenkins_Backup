@@ -1,0 +1,28 @@
+Started by user [8mha:////4A5ng3shpNJjGmcHGmPKv/Hiq05LdCG1BtmHbsl/7lrdAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKzESgBjPjl2vwAAAA==[0majay
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c_proj
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ajayroyal06/ajay.git
+ > git init /var/lib/jenkins/workspace/c_proj # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/ajay.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/ajay.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ajayroyal06/ajay.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ajayroyal06/ajay.git # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/ajay.git
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/ajay.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 78eaf5615508afdb753931ceba00f97bb9f44669 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 78eaf5615508afdb753931ceba00f97bb9f44669 # timeout=10
+Commit message: "test"
+First time build. Skipping changelog.
+[c_proj] $ /bin/sh -xe /tmp/jenkins5526815467943079506.sh
++ cd /var/lib/jenkins/workspace/c_proj
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

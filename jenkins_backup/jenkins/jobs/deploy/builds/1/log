@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4Hu/o/F0mNCqNMY94EYMMRHldiQbNkJcGMcvNen6sN/0AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP3y1KT4jPz87GJ9ABNhuknEAAAA[0mweb_hooks" build number [8mha:////4FlYIfj8OrrY+sSzNBA6/5ubj6+n9D6mpOizNmg/TgvwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/fLUpPiM/PzsYn1zACfNQKLFAAAA[0m7
+originally caused by:
+ Started by GitHub push by ajayroyal06
+Started by upstream project "[8mha:////4Hu/o/F0mNCqNMY94EYMMRHldiQbNkJcGMcvNen6sN/0AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP3y1KT4jPz87GJ9ABNhuknEAAAA[0mweb_hooks" build number [8mha:////4FlYIfj8OrrY+sSzNBA6/5ubj6+n9D6mpOizNmg/TgvwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/fLUpPiM/PzsYn1zACfNQKLFAAAA[0m7
+originally caused by:
+ Started by GitHub push by ajayroyal06
+Running as SYSTEM
+Building remotely on [8mha:////4I02NMomkiOYB87Z+AKM2obpT0ZA021ZjcaSCBFjdKa8AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/eLS5OTU4uL44pzEslQAAALoscwAAAA=[0msuccess_slave in workspace /home/ubuntu/practice/dev4/ajay/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins8412948134579610536.sh
++ scp /home/ubuntu/practice/dev4/ajay/jenkins/workspace/web_hooks/target/biggest-1.war /home/ubuntu/practice/dev4/ajay/jenkins/workspace/web_hooks/target/original-biggest-1.war ec2-user@13.233.117.73:/home/ec2-user/apache-tomcat-7.0.99/webapps
+Finished: SUCCESS

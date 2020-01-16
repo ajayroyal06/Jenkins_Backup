@@ -1,0 +1,10 @@
+Started on Jan 14, 2020 8:11:23 PM
+Started by event from 192.30.252.91 ⇒ http://13.233.165.94:8080/github-webhook/ on Tue Jan 14 20:11:23 UTC 2020
+Using strategy: Default
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ajayroyal06/webhooks.git # timeout=10
+Found 1 remote heads on https://github.com/ajayroyal06/webhooks.git
+[poll] Latest remote head revision on refs/heads/master is: e69375d67ed75f101a16acab6ea2287966d37216
+Done. Took 0.64 sec
+Changes found

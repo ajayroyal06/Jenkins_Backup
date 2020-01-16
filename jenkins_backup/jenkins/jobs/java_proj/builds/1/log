@@ -1,0 +1,86 @@
+Started by user [8mha:////4A5ng3shpNJjGmcHGmPKv/Hiq05LdCG1BtmHbsl/7lrdAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKzESgBjPjl2vwAAAA==[0majay
+Running as SYSTEM
+Building remotely on [8mha:////4I02NMomkiOYB87Z+AKM2obpT0ZA021ZjcaSCBFjdKa8AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/eLS5OTU4uL44pzEslQAAALoscwAAAA=[0msuccess_slave in workspace /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ajayroyal06/repo1_jenkins.git
+ > git init /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/repo1_jenkins.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/repo1_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ajayroyal06/repo1_jenkins.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ajayroyal06/repo1_jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/repo1_jenkins.git
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/repo1_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 886e7c7491ad26ab83a552094523894b8dc98b19 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 886e7c7491ad26ab83a552094523894b8dc98b19 # timeout=10
+Commit message: "java prgms"
+First time build. Skipping changelog.
+[java_proj] $ /bin/sh -xe /tmp/jenkins14563604588169990195.sh
++ mvn compile
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mfirst_maven:maven-app[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding maven-app 1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmaven-app[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mmaven-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.589 s
+[[1;34mINFO[m] Finished at: 2020-01-13T18:49:24Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
++ mvn package
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mfirst_maven:maven-app[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding maven-app 1[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmaven-app[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mmaven-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmaven-app[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mmaven-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmaven-app[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:2.4:jar[m [1m(default-jar)[m @ [36mmaven-app[0;1m ---[m
+[[1;33mWARNING[m] JAR will be empty - no content was marked for inclusion!
+[[1;34mINFO[m] Building jar: /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/target/maven-app-1.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.319 s
+[[1;34mINFO[m] Finished at: 2020-01-13T18:49:29Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

@@ -1,0 +1,89 @@
+Started by user [8mha:////4A5ng3shpNJjGmcHGmPKv/Hiq05LdCG1BtmHbsl/7lrdAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKzESgBjPjl2vwAAAA==[0majay
+Running as SYSTEM
+Building remotely on [8mha:////4I02NMomkiOYB87Z+AKM2obpT0ZA021ZjcaSCBFjdKa8AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/eLS5OTU4uL44pzEslQAAALoscwAAAA=[0msuccess_slave in workspace /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ajayroyal06/repo1_jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/repo1_jenkins.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/repo1_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 54c718548371ba082886fd6a1ad146bedb3518dd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54c718548371ba082886fd6a1ad146bedb3518dd # timeout=10
+Commit message: "modified pom.xml"
+ > git rev-list --no-walk 54c718548371ba082886fd6a1ad146bedb3518dd # timeout=10
+[java_proj] $ /bin/sh -xe /tmp/jenkins8569424903310761081.sh
++ cd /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj
++ mvn compile
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mjenkins_maven:biggest[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding biggest 1[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbiggest[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.608 s
+[[1;34mINFO[m] Finished at: 2020-01-14T14:35:52Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
++ mvn package
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mjenkins_maven:biggest[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding biggest 1[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbiggest[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mbiggest[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:2.2:war[m [1m(default-war)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [biggest] in [/home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/target/biggest-1]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Webapp assembled in [20 msecs]
+[[1;34mINFO[m] Building war: /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/target/biggest-1.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-shade-plugin:2.2:shade[m [1m(default)[m @ [36mbiggest[0;1m ---[m
+[[1;34mINFO[m] Replacing original artifact with shaded artifact.
+[[1;34mINFO[m] Replacing /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/target/biggest-1.war with /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj/target/biggest-1-shaded.war
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.090 s
+[[1;34mINFO[m] Finished at: 2020-01-14T14:35:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Finished: SUCCESS

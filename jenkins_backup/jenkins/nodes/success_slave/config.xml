@@ -1,0 +1,23 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>success_slave</name>
+  <description>test</description>
+  <remoteFS>/home/ubuntu/practice/dev4/ajay/jenkins</remoteFS>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.31.0">
+    <host>15.206.158.112</host>
+    <port>22</port>
+    <credentialsId>2846a248-9759-4b4e-82df-3b35cab76634</credentialsId>
+    <launchTimeoutSeconds>210</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy">
+      <requireInitialManualTrust>false</requireInitialManualTrust>
+    </sshHostKeyVerificationStrategy>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label></label>
+  <nodeProperties/>
+</slave>

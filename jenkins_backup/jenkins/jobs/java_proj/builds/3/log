@@ -1,0 +1,22 @@
+Started by user [8mha:////4A5ng3shpNJjGmcHGmPKv/Hiq05LdCG1BtmHbsl/7lrdAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKzESgBjPjl2vwAAAA==[0majay
+Running as SYSTEM
+Building remotely on [8mha:////4I02NMomkiOYB87Z+AKM2obpT0ZA021ZjcaSCBFjdKa8AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZx/eT83ILSktQi/eLS5OTU4uL44pzEslQAAALoscwAAAA=[0msuccess_slave in workspace /home/ubuntu/practice/dev4/ajay/jenkins/workspace/java_proj
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ajayroyal06/repo1_jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/ajayroyal06/repo1_jenkins.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ajayroyal06/repo1_jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 54c718548371ba082886fd6a1ad146bedb3518dd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54c718548371ba082886fd6a1ad146bedb3518dd # timeout=10
+Commit message: "modified pom.xml"
+ > git rev-list --no-walk 54c718548371ba082886fd6a1ad146bedb3518dd # timeout=10
+[java_proj] $ /bin/sh -xe /tmp/jenkins4296929879155347044.sh
++ cd practice/dev4/ajay/jenkins/workspace/java_proj/
+/tmp/jenkins4296929879155347044.sh: 2: cd: can't cd to practice/dev4/ajay/jenkins/workspace/java_proj/
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
