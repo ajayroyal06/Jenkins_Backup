@@ -1,0 +1,10 @@
+commit 1b2f50444b0fe54bf38c3b659c90acaa7f2aa235
+tree 63857325601f9b70e50679a08f1ecbb2c336dfac
+parent de7eac5e24ff743df8283bc1c00e0a714d77c9b8
+author Ajay <ajayroyal06@gmail.com> 2020-01-18 16:27:34 +0530
+committer Ajay <ajayroyal06@gmail.com> 2020-01-18 16:27:34 +0530
+
+    removed sudo
+
+
+:100644 100644 2d570fa5ba43de00d9fa8a6a51ccf62fae3354bd adb3ec5fa1478ffdd8725df8396fbe42ca29a0cf M	Jenkinsfile
